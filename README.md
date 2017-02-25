@@ -9,9 +9,9 @@ Ks1[2] * X + Ks1[1] = 0
 ```
 ```Pascal
 var
-   Ks  :TDouble2D;  //多項式の係数
-   X1  :Double;     //解
-   XsN :Byte;       //解の個数 = 0～1
+   Ks  :TDouble2D;  //多項式の係数
+   X1  :Double;     //解
+   XsN :Byte;       //解の個数 = 0～1
 
 Ks[1] := 1;  // 1
 Ks[2] := 2;  // X
@@ -24,9 +24,9 @@ Ks1[3] * X^2 + Ks1[2] * X + Ks1[1] = 0
 ```
 ```Pascal
 var
-   Ks  :TDouble2D;  //多項式の係数
-   Xs  :Double;     //解の配列
-   XsN :Byte;       //解の個数 = 0～2
+   Ks  :TDouble2D;  //多項式の係数
+   Xs  :Double;     //解の配列
+   XsN :Byte;       //解の個数 = 0～2
 
 Ks[1] := 1;  // 1
 Ks[2] := 2;  // X
@@ -40,9 +40,9 @@ Ks1[4] * X^3 + Ks1[3] * X^2 + Ks1[2] * X + Ks1[1] = 0
 ```
 ```Pascal
 var
-   Ks  :TDouble2D;  //多項式の係数
-   Xs  :Double;     //解の配列
-   XsN :Byte;       //解の個数 = 1 or 3
+   Ks  :TDouble2D;  //多項式の係数
+   Xs  :Double;     //解の配列
+   XsN :Byte;       //解の個数 = 1 or 3
 
 Ks[1] := 1;  // 1
 Ks[2] := 2;  // X
@@ -57,9 +57,9 @@ Ks1[5] * X^4 + Ks1[4] * X^3 + Ks1[3] * X^2 + Ks1[2] * X + Ks1[1] = 0
 ```
 ```Pascal
 var
-   Ks  :TDouble2D;  //多項式の係数
-   Xs  :Double;     //解の配列
-   XsN :Byte;       //解の個数 = 0～4
+   Ks  :TDouble2D;  //多項式の係数
+   Xs  :Double;     //解の配列
+   XsN :Byte;       //解の個数 = 0～4
 
 Ks[1] := 1;  // 1
 Ks[2] := 2;  // X
