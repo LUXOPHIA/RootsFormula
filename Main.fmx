@@ -1,0 +1,81 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'SolveFormula'
+  ClientHeight = 420
+  ClientWidth = 730
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Right
+    Margins.Left = -10.000000000000000000
+    Position.X = 610.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 420.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'pushpanel'
+    TabOrder = 1
+    object CheckBox1: TCheckBox
+      IsChecked = True
+      Position.X = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = '1 order'
+    end
+    object CheckBox2: TCheckBox
+      IsChecked = True
+      Position.X = 10.000000000000000000
+      Position.Y = 35.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = '2 order'
+    end
+    object CheckBox3: TCheckBox
+      IsChecked = True
+      Position.X = 10.000000000000000000
+      Position.Y = 60.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = '3 order'
+    end
+    object CheckBox4: TCheckBox
+      IsChecked = True
+      Position.X = 10.000000000000000000
+      Position.Y = 85.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '4 order'
+    end
+  end
+  object Timer1: TTimer
+    Interval = 10
+    OnTimer = Timer1Timer
+    Left = 20
+    Top = 20
+  end
+  inline GraphFrame1: TGraphFrame
+    Align = Client
+    ClipChildren = True
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Size.Width = 600.000000000000000000
+    Size.Height = 400.000000000000000000
+    Size.PlatformDefault = False
+    OnPaint = GraphFrame1Paint
+  end
+end

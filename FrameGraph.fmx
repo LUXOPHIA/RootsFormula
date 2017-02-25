@@ -1,0 +1,6 @@
+object GraphFrame: TGraphFrame
+  ClipChildren = True
+  Size.Width = 600.000000000000000000
+  Size.Height = 400.000000000000000000
+  Size.PlatformDefault = False
+end
