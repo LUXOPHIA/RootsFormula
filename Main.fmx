@@ -27,7 +27,7 @@ object Form1: TForm1
       Size.Height = 20.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 3
-      Text = '1 order'
+      Text = '1 degree'
     end
     object CheckBox2: TCheckBox
       IsChecked = True
@@ -37,7 +37,7 @@ object Form1: TForm1
       Size.Height = 20.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 2
-      Text = '2 order'
+      Text = '2 degree'
     end
     object CheckBox3: TCheckBox
       IsChecked = True
@@ -47,7 +47,7 @@ object Form1: TForm1
       Size.Height = 20.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 1
-      Text = '3 order'
+      Text = '3 degree'
     end
     object CheckBox4: TCheckBox
       IsChecked = True
@@ -57,7 +57,7 @@ object Form1: TForm1
       Size.Height = 20.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
-      Text = '4 order'
+      Text = '4 degree'
     end
   end
   object Timer1: TTimer
