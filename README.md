@@ -1,4 +1,4 @@
-﻿# SolveFormula
+﻿# RootsFormula
 "解の公式"によって、１～４次方程式の解を計算。
 
 ![](https://github.com/LUXOPHIA/SolveFormula/raw/master/--------/_SCREENSHOT/SolveFormula.png)
