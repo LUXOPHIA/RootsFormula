@@ -1,5 +1,5 @@
 # RootsFormula
-"解の公式"を用いて、１～４次方程式の解をリアルタイムに計算しました。
+"解の公式"を用いて、１～４次方程式の解をリアルタイムに計算しました。  
 Using the formula of solution, We computed the solution of the linear / quadratic / cubic / quartic equation in real time.
 
 ![](https://github.com/LUXOPHIA/RootsFormula/raw/master/--------/_SCREENSHOT/RootsFormula.png)
