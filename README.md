@@ -4,7 +4,7 @@ Using the formula of solution, We computed the solution of the linear / quadrati
 
 ![](https://github.com/LUXOPHIA/RootsFormula/raw/master/--------/_SCREENSHOT/RootsFormula.png)
 
-### １次方程式
+### １次方程式 (linear equation)
 ```
 Ks1[2] * X + Ks1[1] = 0
 ```
@@ -19,7 +19,7 @@ Ks[2] := 2;  // X
 
 XsN := PolySolveReal( Ks, X1 );
 ```
-### ２次方程式
+### ２次方程式 (Quadratic equation)
 ```
 Ks1[3] * X^2 + Ks1[2] * X + Ks1[1] = 0
 ```
@@ -35,7 +35,7 @@ Ks[3] := 3;  // X^2
 
 XsN := PolySolveReal( Ks, Xs );
 ```
-### ３次方程式
+### ３次方程式 (Cubic equation)
 ```
 Ks1[4] * X^3 + Ks1[3] * X^2 + Ks1[2] * X + Ks1[1] = 0
 ```
@@ -52,7 +52,7 @@ Ks[4] := 4;  // X^3
 
 XsN := PolySolveReal( Ks, Xs );
 ```
-### ４次方程式
+### ４次方程式 (Quartic equation)
 ```
 Ks1[5] * X^4 + Ks1[4] * X^3 + Ks1[3] * X^2 + Ks1[2] * X + Ks1[1] = 0
 ```
