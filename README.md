@@ -42,6 +42,10 @@ XsN := PolySolveReal( Ks, Xs );
 ```
 Ks1[4] * X^3 + Ks1[3] * X^2 + Ks1[2] * X + Ks1[1] = 0
 ```
+
+> **function** [PolySolveReal](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D4.pas#L1564)( **const** Ks_:[TSingle4D](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D4.pas#L14); **out** Xs_:[TSingle3D](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D3.pas#L14) ) :Byte;  
+> **function** [PolySolveReal](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D4.pas#L1636)( **const** Ks_:[TDouble4D](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D4.pas#L78); **out** Xs_:[TDouble3D](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D3.pas#L75) ) :Byte;
+
 ```Pascal
 var
    Ks  :TDouble2D;  //多項式の係数
@@ -59,6 +63,10 @@ XsN := PolySolveReal( Ks, Xs );
 ```
 Ks1[5] * X^4 + Ks1[4] * X^3 + Ks1[3] * X^2 + Ks1[2] * X + Ks1[1] = 0
 ```
+
+> **function** [PolySolveReal](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D5.pas#L1475)( **const** Ks_:[TSingle5D](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D5.pas#L14); **out** Xs_:[TSingle4D](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D4.pas#L14) ) :Byte;  
+> **function** [PolySolveReal](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D5.pas#L1574)( **const** Ks_:[TDouble5D](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D5.pas#L73); **out** Xs_:[TDouble4D](https://github.com/LUXOPHIA/RootsFormula/blob/master/_LIBRARY/LUXOPHIA/LUX/LUX.D4.pas#L78) ) :Byte;
+
 ```Pascal
 var
    Ks  :TDouble2D;  //多項式の係数
