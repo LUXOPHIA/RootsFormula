@@ -28,7 +28,8 @@ uses
   LUX.Curve.T2.D1 in '_LIBRARY\LUXOPHIA\LUX.Curve\LUX.Curve.T2.D1.pas',
   LUX.Curve.T2.D2 in '_LIBRARY\LUXOPHIA\LUX.Curve\LUX.Curve.T2.D2.pas',
   LUX.Curve.T2.D3 in '_LIBRARY\LUXOPHIA\LUX.Curve\LUX.Curve.T2.D3.pas',
-  FrameGraph in 'FrameGraph.pas' {GraphFrame: TFrame};
+  FrameGraph in 'FrameGraph.pas' {GraphFrame: TFrame},
+  LUX.Tree in '_LIBRARY\LUXOPHIA\LUX\LUX.Tree.pas';
 
 {$R *.res}
 
